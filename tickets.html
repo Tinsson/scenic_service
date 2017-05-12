@@ -6,28 +6,72 @@
 	<meta name="renderer" content="webkit">
 	<meta name="imagemode" content="force">
 	<title>售票前台</title>
-	<link rel="stylesheet" type="text/css" href="./css/reset.css">
-	<link rel="stylesheet" type="text/css" href="./css/vendor/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/flat-ui.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/reset.css">
 	<link rel="stylesheet" type="text/css" href="./css/main.css">
 	<script src="./js/jquery.js" type="text/javascript"></script>
+	<script src="./js/bootstrap.js"></script>
 	<script src="./js/flat-ui.min.js" type="text/javascript"></script>
-	<script src="./js/common.js" type="text/javascript"></script>
+	<script src="./js/init.js" type="text/javascript"></script>
 </head>
 <body>
-	<div class="headBox">
-		<div class="headCon clearfix">
-			<span class="order">今日订单</span>
-			<a href="" class="signOut">退出</a>
-			<div class="door">
-				<label for="dr_sel" class="dr_lb">门岗:</label>
-				<select name="doorNum" data-toggle="select" id="dr_sel" class="form-control select select-inverse mrs mbm">
-					<option value="1">门岗1</option>
-					<option value="2">门岗2</option>
-					<option value="3">门岗3</option>
-				</select>
+	<!-- 头部输出 -->
+	<div id ="header">
+		<a href="####">大青山后台系统</a>
+	</div>
+	<!-- 头部信息 -->
+	<div id="user-nav" class="navbar">
+		<ul class="nav">
+			<li class="dropdown" id="profile-msg">
+				<a href="#" data-toggle="dropdown" data-target="#profile-msg" class="dropdown-toggle up-line">
+					<i class="icon icon-user"></i>
+					<span class="text">欢迎Admin</span>
+				</a>
+			</li>
+			<li>
+				<a href="login.html">
+					<i class="icon icon-share-alt"></i>
+					<span class="text">退出</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<!-- 右侧导航栏 -->
+	<div id="sidebar">
+		<ul>
+			<li>
+				<a href="index.html">
+					<i class="icon icon-home"></i>
+					<span>购票前台</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<!-- 中心区域 -->
+	<div id="content" style="padding-bottom:200px">
+		<div id="content-header">
+			<div id="breadcrumb">
+				<span href="" class="tip-bottom">
+					<i class="icon icon-chevron-right"></i>
+					<span>　购票前台</span>
+				</span>
+			</div>
+		</div>
+		<div class="container-fluid" style="padding:0">
+			<div class="headBox clearfix">
+				<span class="order">今日订单</span>
+				<div class="door">
+					<select name="doorNum" data-toggle="select" class="form-control select select-inverse">
+						<option value="1">门岗1</option>
+						<option value="2">门岗2</option>
+						<option value="3">门岗3</option>
+					</select>
+				</div>
 			</div>
 		</div>
 	</div>
 </body>
 </html>
+	
