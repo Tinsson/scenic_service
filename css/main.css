@@ -1,6 +1,8 @@
 /*固定项目样式*/
 .item_bg{
 	background-color: #0082cc;
+	position: relative;
+	min-height: 94vh;
 }
 .item{
 	width: 90%;
@@ -93,4 +95,74 @@
 	background-color: #44B549;
 	color: #FFF;
 }
+.copyright{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	color: #f1f1f1;
+	font-size: 12px;
+	line-height: 28px;
+	width: 100%;
+	text-align: center;
+}
 /*支付成功样式*/
+.suc_bd{
+
+}
+.suc_info{
+	text-align: center;
+	width: 4rem;
+	padding: 0.5rem;
+}
+.suc_info .suc_icon{
+	display: inline-block;
+	width: 1.2rem;
+	height: 1.2rem;
+	background: url("../images/success.png") no-repeat center;
+	background-size: cover;
+}
+.suc_info .suc_text{
+	color: #32CD26;
+	text-align: center;
+	font-size: .3rem;
+	line-height: .4rem;
+}
+.info_box{
+	width: 4.5rem;
+	margin: 0 0.25rem;
+	border-radius: 5px;
+	background-color: #f9f9f9;
+	border: 1px solid #efefef;
+}
+.info_box .context{
+	padding: 0.2rem;
+	box-sizing: border-box;
+	border-top: 1px solid #efefef;
+}
+.info_box .context:nth-child(1){
+	border-top: none;
+}
+.info_box .context .exp{
+	float: left;
+	display: inline-block;
+	width: 1rem;
+	font-size: .2rem;
+	line-height: .22rem;
+	color: #666;
+}
+.info_box .context .detail{
+	display: inline-block;
+	word-break:break-all;
+	float: right;
+	width: 3rem;
+	font-size: .2rem;
+	line-height: .22rem;
+	text-align: right;
+}
+.suc_tip{
+	text-align: center;
+	line-height: .5rem;
+	font-size: .2rem;
+	margin-top: .2rem;
+	color: #0082CC;
+}
