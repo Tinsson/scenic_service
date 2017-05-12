@@ -1,168 +1,29 @@
-/*固定项目样式*/
-.item_bg{
-	background-color: #0082cc;
-	position: relative;
-	min-height: 94vh;
-}
-.item{
-	width: 90%;
-	margin: 5%;
-	padding: 5px;
-	box-sizing: border-box;
-	border-radius: 5px;
-	background-color: #FFF;
-}
-.item .item_con{
+.headBox{
 	width: 100%;
-	height: 50%;
+	background-color: #373737;
 }
-.item .item_con .item_img{
-	width: 100%;
-	height: 100%;
-	object-fit: fill;
+.headBox .headCon{
+	width: 1000px;
+	margin: 0 auto;
 }
-.item .div_line{
-	position: relative;
-	width: 100%;
-	height: 10px;
-}
-.item .div_line .gap1{
+.headBox .headCon .order{
 	display: inline-block;
-	position: absolute;
-	width: 10px;
-	height: 10px;
-	border-radius: 50%;
-	top: 0;
-	left: -10px;
-	z-index: 10;
-	background-color: #0082cc;
-}
-.item .div_line .line{
-	width: 100%;
-	height: 4px;
-	border-bottom: 1px dashed #e1e1e1;
-}
-.item .div_line .gap2{
-	display: inline-block;
-	position: absolute;
-	width: 10px;
-	height: 10px;
-	border-radius: 50%;
-	z-index: 10;
-	top: 0;
-	right: -10px;
-	background-color: #0082cc;
-}
-.item .item_hd{
-	padding-top: 5px;
-	margin: 10px 0;
-}
-.item .item_hd .name{
-	float: left;
-	line-height: 20px;
-	font-size: 20px;
-	color: #666;
-	margin-left: 10px;
-}
-.item .item_hd .price{
-	float: right;
-	margin-right: 10px;
-	color: #333;
-	font-size: 16px;
-	line-height: 20px;
-}
-.tips{
-	width: 90%;
-	margin: 0 5%;
-	box-sizing: border-box;
-	font-size: 14px;
-	line-height: 20px;
-	color: #FFF;
-}
-.tips .tips_hd{
-	font-size: 14px;
-	line-height: 20px;
-	margin: 0;
-}
-.pay_btn{
-	display: block;
-	text-align: center;
-	padding: 10px 0;
-	width: 90%;
-	margin: 5%;
-	border-radius: 5px;
-	font-size: 16px;
-	background-color: #44B549;
-	color: #FFF;
-}
-.copyright{
-	position: absolute;
-	left: 0;
-	bottom: 0;
 	color: #f1f1f1;
-	font-size: 12px;
-	line-height: 28px;
-	width: 100%;
-	text-align: center;
+	font-size: 14px;
+	line-height: 60px;
 }
-/*支付成功样式*/
-.suc_bd{
-
-}
-.suc_info{
-	text-align: center;
-	width: 4rem;
-	padding: 0.5rem;
-}
-.suc_info .suc_icon{
-	display: inline-block;
-	width: 1.2rem;
-	height: 1.2rem;
-	background: url("../images/success.png") no-repeat center;
-	background-size: cover;
-}
-.suc_info .suc_text{
-	color: #32CD26;
-	text-align: center;
-	font-size: .3rem;
-	line-height: .4rem;
-}
-.info_box{
-	width: 4.5rem;
-	margin: 0 0.25rem;
-	border-radius: 5px;
-	background-color: #f9f9f9;
-	border: 1px solid #efefef;
-}
-.info_box .context{
-	padding: 0.2rem;
-	box-sizing: border-box;
-	border-top: 1px solid #efefef;
-}
-.info_box .context:nth-child(1){
-	border-top: none;
-}
-.info_box .context .exp{
-	float: left;
-	display: inline-block;
-	width: 1rem;
-	font-size: .2rem;
-	line-height: .22rem;
-	color: #666;
-}
-.info_box .context .detail{
-	display: inline-block;
-	word-break:break-all;
+.headBox .headCon .signOut{
 	float: right;
-	width: 3rem;
-	font-size: .2rem;
-	line-height: .22rem;
-	text-align: right;
+	display: inline-block;
+	font-size: 14px;
+	padding-left: 20px;
+	background: url("../images/signout.png") no-repeat left;
+	background-size: 18px 18px;
+	color: #f1f1f1;
+	line-height: 60px;
 }
-.suc_tip{
-	text-align: center;
-	line-height: .5rem;
-	font-size: .2rem;
-	margin-top: .2rem;
-	color: #0082CC;
+.headBox .headCon .door{
+	float: right;
+	color: #f1f1f1;
+	line-height: 60px;
 }
