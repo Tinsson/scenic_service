@@ -105,6 +105,21 @@
 	width: 100%;
 	text-align: center;
 }
+/* 多项目选择样式 */
+.flex_bg{
+	background-color: #f9f9f9;
+}
+.flex_hd{
+	color: #333;
+	font-size: .3rem;
+	text-align: center;
+	line-height: .8rem;
+	margin: 0;
+}
+.item_ul{
+	width: 4.9rem;
+	margin-left: .1rem;
+}
 /*支付成功样式*/
 .suc_bd{
 
