@@ -7,8 +7,8 @@
 	<meta name="imagemode" content="force">
 	<title>售票前台</title>
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/flat-ui.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/reset.css">
 	<link rel="stylesheet" type="text/css" href="./css/main.css">
 	<script src="./js/jquery.js" type="text/javascript"></script>
@@ -44,7 +44,7 @@
 			<li>
 				<a href="index.html">
 					<i class="icon icon-home"></i>
-					<span>购票前台</span>
+					<span>服务点</span>
 				</a>
 			</li>
 		</ul>
@@ -55,18 +55,18 @@
 			<div id="breadcrumb">
 				<span href="" class="tip-bottom">
 					<i class="icon icon-chevron-right"></i>
-					<span>　购票前台</span>
+					<span>　服务点</span>
 				</span>
 			</div>
 		</div>
 		<div class="container-fluid" style="padding:0">
 			<div class="headBox clearfix">
-				<span class="order_hd">今日统计：总金额（1050元）；全票（15张）；半票（5张）</span>
+				<span class="order_hd">今日统计：总金额（1050元）</span>
 				<div class="door">
 					<select name="doorNum" data-toggle="select" id="doorn" class="form-control select select-inverse">
-						<option value="1">门岗1</option>
-						<option value="2">门岗2</option>
-						<option value="3">门岗3</option>
+						<option value="1">服务点1</option>
+						<option value="2">服务点2</option>
+						<option value="3">服务点3</option>
 					</select>
 				</div>
 			</div>
@@ -74,28 +74,23 @@
 				<div class="order"></div>
 				<div class="center">
 					<div class="leftForm col-md-4 col-sm-3">
-						<h2 class="priceTip col-md-8 col-md-offset-2">
-							全票价格：<em class="p_num">60</em> 元/张
-						</h2>
 						<form action="">
 							<div class="form-group clearfix">
-								<label  class="control-label col-lg-3 col-md-4 col-sm-5 col-lg-offset-2 col-md-offset-1" align="right">全票：</label>
-								<div class="col-lg-3 col-md-5">
-									<input type="text" class="form-control input-sm ticketsNum" data-type="1" name="fullnum" value="">
+								<label  class="control-label col-lg-3 col-md-4 col-sm-5 col-lg-offset-2 col-md-offset-1" align="right">项目：</label>
+								<div class="col-lg-4 col-md-6">
+									<select class="form-control" name="" id="">
+										<option value="1">烧烤</option>
+										<option value="2">划船</option>
+									</select>
 								</div>
-								<span class="unit">张</span>
+								
 							</div>
 							<div class="form-group clearfix">
-								<label  class="control-label col-lg-3 col-md-4 col-sm-5 col-lg-offset-2 col-md-offset-1" align="right">半票：</label>
+								<label  class="control-label col-lg-3 col-md-4 col-sm-5 col-lg-offset-2 col-md-offset-1" align="right">金额：</label>
 								<div class="col-lg-3 col-md-5">
-									<input type="text" class="form-control input-sm ticketsNum" data-type="2" name="halfnum" value="">
+									<input type="text" class="form-control input-sm service_p" data-type="1" name="fullnum" value="">
 								</div>
-								<span class="unit">张</span>
-							</div>
-							<div class="form-group clearfix">
-								<label class="control-label col-lg-3 col-md-4 col-sm-5 col-lg-offset-2 col-md-offset-1" align="right">金额：</label>
-								<input type="hidden" id="allprice" name="allprice">
-								<span class="amount"><em class="count">0</em>元</span>
+								<span class="unit">元</span>
 							</div>
 							<div class="form-group clearfix">
 								<button type="submit" class="btn btn-success col-md-4 col-sm-6 col-sm-offset-2 col-md-offset-4">确认订单</button>
@@ -118,7 +113,7 @@
 									<td>5002121212</td>
 									<td>90元</td>
 									<td>2017-5-15 14:12</td>
-									<td>全票1张，半票1张</td>
+									<td>划船3张</td>
 									<td>
 										<a href="javascript:;" class="btn btn-info btn-sm">修改</a>
 										<a href="javascript:;" class="btn btn-primary btn-sm">验证</a>
@@ -128,7 +123,7 @@
 									<td>5002121212</td>
 									<td>90元</td>
 									<td>2017-5-15 14:12</td>
-									<td>全票1张，半票1张</td>
+									<td>划船3张</td>
 									<td>
 										<a href="javascript:;" class="btn btn-info btn-sm">修改</a>
 										<a href="javascript:;" class="btn btn-primary btn-sm">验证</a>
@@ -138,7 +133,7 @@
 									<td>5002121212</td>
 									<td>90元</td>
 									<td>2017-5-15 14:12</td>
-									<td>全票1张，半票1张</td>
+									<td>划船3张</td>
 									<td>
 										<a href="javascript:;" class="btn btn-info btn-sm">修改</a>
 										<a href="javascript:;" class="btn btn-primary btn-sm">验证</a>
@@ -148,7 +143,7 @@
 									<td>5002121212</td>
 									<td>90元</td>
 									<td>2017-5-15 14:12</td>
-									<td>全票1张，半票1张</td>
+									<td>划船3张</td>
 									<td>
 										<a href="javascript:;" class="btn btn-info btn-sm">修改</a>
 										<a href="javascript:;" class="btn btn-primary btn-sm">验证</a>
@@ -158,7 +153,7 @@
 									<td>5002121212</td>
 									<td>90元</td>
 									<td>2017-5-15 14:12</td>
-									<td>全票1张，半票1张</td>
+									<td>划船3张</td>
 									<td>
 										<a href="javascript:;" class="btn btn-info btn-sm">修改</a>
 										<a href="javascript:;" class="btn btn-primary btn-sm">验证</a>
@@ -168,7 +163,7 @@
 									<td>5002121212</td>
 									<td>90元</td>
 									<td>2017-5-15 14:12</td>
-									<td>全票1张，半票1张</td>
+									<td>划船3张</td>
 									<td>
 										<a href="javascript:;" class="btn btn-info btn-sm">修改</a>
 										<a href="javascript:;" class="btn btn-primary btn-sm">验证</a>
@@ -178,7 +173,7 @@
 									<td>5002121212</td>
 									<td>90元</td>
 									<td>2017-5-15 14:12</td>
-									<td>全票1张，半票1张</td>
+									<td>划船3张</td>
 									<td>
 										<a href="javascript:;" class="btn btn-info btn-sm">修改</a>
 										<a href="javascript:;" class="btn btn-primary btn-sm">验证</a>
@@ -188,7 +183,7 @@
 									<td>5002121212</td>
 									<td>90元</td>
 									<td>2017-5-15 14:12</td>
-									<td>全票1张，半票1张</td>
+									<td>划船3张</td>
 									<td>
 										<a href="javascript:;" class="btn btn-info btn-sm">修改</a>
 										<a href="javascript:;" class="btn btn-primary btn-sm">验证</a>
@@ -198,7 +193,7 @@
 									<td>5002121212</td>
 									<td>90元</td>
 									<td>2017-5-15 14:12</td>
-									<td>全票1张，半票1张</td>
+									<td>划船3张</td>
 									<td>
 										<a href="javascript:;" class="btn btn-info btn-sm">修改</a>
 										<a href="javascript:;" class="btn btn-primary btn-sm">验证</a>
@@ -238,14 +233,14 @@
 	</div>
 	<div class="mask" id="chose_mk">
 		<div class="m_area">
-			<div class="head">选择门岗</div>
+			<div class="head">选择服务点</div>
 			<div class="body">
-				<label class="tip" for="">门岗：</label>
+				<label class="tip" for="">服务点：</label>
 				<select data-toggle="select" id="ticketing" class="form-control select select-inverse" id="cateChose">
 					<option value="0">无</option>
-					<option value="1">门岗1</option>
-					<option value="2">门岗2</option>
-					<option value="3">门岗3</option>
+					<option value="1">服务点1</option>
+					<option value="2">服务点2</option>
+					<option value="3">服务点3</option>
 				</select>
 			</div>
 			<div class="footer">
@@ -253,7 +248,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="mask" id="scan_tip">
+	<div class="mask" id="scan_tip" style="display:none">
 		<div class="m_area" style="padding-bottom: 15px;">
 			<div class="body">
 				<img class="scan_pic" src="./images/scan.png" alt="">
