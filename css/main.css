@@ -263,6 +263,12 @@ body{
 .mask .m_area .body .scan_con{
 	padding-top:25px;
 }
+.mask .m_area .body .scan_con .time_num{
+	color: #f00;
+}
+#scan_suc{
+	display: none;
+}
 .mask .m_area .footer{
 	padding: 10px 0;
 	text-align: center;
