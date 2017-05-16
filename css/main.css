@@ -266,6 +266,9 @@ body{
 .mask .m_area .body .scan_con .time_num{
 	color: #f00;
 }
+.mask .m_area .body .iptBox{
+	margin-left: 75px;
+}
 #scan_suc{
 	display: none;
 }
