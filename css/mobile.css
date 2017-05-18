@@ -2,6 +2,8 @@
 .item_bg{
 	background-color: #0082cc;
 	position: relative;
+	padding-bottom: 5vh;
+	box-sizing: border-box;
 	min-height: 94vh;
 }
 .project_hd{
@@ -92,11 +94,11 @@
 .pay_btn{
 	display: block;
 	text-align: center;
-	padding: 10px 0;
+	padding: 15px 0;
 	width: 90%;
 	margin: 5%;
 	border-radius: 5px;
-	font-size: 16px;
+	font-size: 20px;
 	background-color: #44B549;
 	color: #FFF;
 }
